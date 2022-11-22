@@ -5,7 +5,9 @@ public class placement {
 	public static void main(String[] args) {
 		
 	        System.out.println("Enter the no of students placed in CSE:");
-	        Scanner sc = new Scanner(System.in);
+	        Scanner sc = new """
+	        Scanner
+	        """(System.in);
 	        int cse = sc.nextInt();
 	        
 	        System.out.println("Enter the no of students placed in IT:");

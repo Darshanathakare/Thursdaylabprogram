@@ -1,22 +1,17 @@
-//darshana thakare
-//program for generating pattern
-
-package question3;
-
-public class pattern {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-	
-		
-		        int a = 1;
-		        for (int i = 1; i <= 5; i++) {
-		            for (int j = 1; j <= i; j++) {
-		                System.out.print(a++ + "\t");
-		            }
-		            System.out.println();
-		        }
-
+class techaer{
+	void teaching(){System.out.println(“teaching…”);}
 	}
-
+	class computer tecaher extends teacher{
+	void computer use(){System.out.println(“computer use…”);}
+	}
+	class science teacher extends teacher{
+	void science lab(){System.out.println(“scuence lab…”);}
+	}
+	class TeacherInheritance2{
+	public static void main(String args[]){
+	science teacher d=new science teacher();
+	d.science teacher();
+	d.computer teacher();
+	d.teaching();
+	}
 }
