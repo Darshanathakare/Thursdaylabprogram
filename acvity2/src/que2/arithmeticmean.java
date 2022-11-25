@@ -1,6 +1,6 @@
 package que2;
 
-public class arithmeticmain {
+public class arithmeticmean {
 
 	    public int add(int a, int b){
 	        int sum = a + b; 
