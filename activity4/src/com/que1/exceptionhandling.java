@@ -1,38 +1,24 @@
-//author:darshana thakare
- 
-package com.que1;
-import java.util.Scanner;
+class Ques_64 {
 
-public class exceptionhandling 
+public static void main(String s[]) {
 
+String str1 = "abc";
 
+String str2 = new String (str1);
 
-{  
-	public static void main(String arg[])
-    {  
-		try
-		{
-			// declare and initialize here.
-			int a,b,c;
-			Scanner KB=new Scanner(System.in);
-			
-			// input numbers here.
-			System.out.print("Enter first number : ");
-			a=KB.nextInt();
-       
-			System.out.print("Enter second number : ");
-			b=KB.nextInt();
-       
-			//throw to catch
-			c=a/b;
-			System.out.println("Result:"+c);
-		}
-		catch(ArithmeticException e)
-		{
-			System.out.println("Error:"+e.getMessage());
-			System.out.println("Error:"+e);
-		}
-		// here program ends.
-		System.out.println("End of Program...");
-	}
+String str3 = new String ("abc");
+
+String str4 = new String ("Abc");
+
+System.out.print((str1 == str3) + “ “);
+
+System.out.print(str4.equalsIgnoreCase(str1) + “ “);
+
+System.out.print((str2 == str3) + “ “);
+
+System.out.print(str2 == str4);
+
 }
+
+}
+
