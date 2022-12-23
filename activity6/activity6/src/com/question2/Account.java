@@ -1,7 +1,7 @@
 //Author:Darshana Thakare
 //creating a account class where we can deposit and withdraw money using userdefined exception
-	
-package com.que2;
+
+package com.question2;
 
 import java.util.Scanner;
 
